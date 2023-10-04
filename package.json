@@ -1,6 +1,6 @@
 {
   "name": "Звездные войны",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "description": "Отправляйтесь в захватывающее путешествие по загадочной вселенной!",
   "main": "index.js",
   "scripts": {
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Elbrus-Bootcamp/assessment-1j.git"
+    "url": "git+https://github.com/Elbrus-Bootcamp/star-wars.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Elbrus-Bootcamp/assessment-1j/issues"
+    "url": "https://github.com/Elbrus-Bootcamp/star-wars/issues"
   },
-  "homepage": "https://github.com/Elbrus-Bootcamp/assessment-1j#readme",
+  "homepage": "https://github.com/Elbrus-Bootcamp/star-warsj#readme",
   "devDependencies": {
     "eslint": "^7.10.0",
     "eslint-config-airbnb-base": "^14.2.0",
