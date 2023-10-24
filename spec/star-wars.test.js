@@ -11,6 +11,7 @@ describe('Звездные войны', () => {
     let abilities1;
     let abilities2;
     let enemy;
+
     beforeEach(() => {
       abilities1 = [new Ability('Силовое Поле', 10), new Ability('Волновой Удар', 20)];
       abilities2 = [new Ability('Мощный Рывок', 15), new Ability('Ментальный удар', 25)];
