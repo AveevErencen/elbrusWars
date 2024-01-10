@@ -9,7 +9,7 @@ describe('Класс `Elbrius`', () => {
   });
 
   test('Использование силы для исцеления', () => {
-    elbrius.takeDamage = 50;
+    elbrius.takeDamage(50);
     elbrius.useForceHeal();
     expect(elbrius.health).toBe(55);
   });

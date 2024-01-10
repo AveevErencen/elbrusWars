@@ -63,9 +63,9 @@ describe('Класс `Character`', () => {
 
   describe('Метод `takeDamage`', () => {
     test('Проверка нанесения урона персонажу', () => {
-      character.takeDamage = 50;
+      character.takeDamage(50);
       expect(character.health).toBe(50);
-      character.takeDamage = 30;
+      character.takeDamage(30);
       expect(character.health).toBe(20);
     });
   });
