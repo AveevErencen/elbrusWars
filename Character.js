@@ -1,3 +1,5 @@
+const Calculator = require("./Calculator");
+
 class Character {
   #health = 100;
 
@@ -51,7 +53,8 @@ class Character {
   }
 
   attack(enemy) {
-    enemy.health;
+    enemy.takeDamage(Calculator.calculateDamage(this, enemy));
+    return enemy.health;
   }
 }
 
