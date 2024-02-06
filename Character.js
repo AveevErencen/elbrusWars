@@ -1,11 +1,10 @@
 class Character {
-  #health;
+  #health = 100;
 
   constructor(
     name,
     role,
     abilities,
-    health,
     isAlive = true,
     attackPower = 15,
     defensePower = 5,
@@ -15,7 +14,6 @@ class Character {
     this.name = name;
     this.role = role;
     this.abilities = abilities;
-    this.#health = health;
     this.isAlive = isAlive,
     this.attackPower = attackPower;
     this.defensePower = defensePower;
@@ -24,7 +22,7 @@ class Character {
   }
 
   get health() {
-    return this.#health = 100;
+    return this.#health
   }
 
   gainExperience(points) {
@@ -41,13 +39,11 @@ class Character {
     }
 
  takeDamage(damage) {
-     set health(damage) {
-        this.#health -= damage
-    }
+    this.#health -= damage
   }
 
   attack(enemy) {
-
+    enemy.health 
   }
 }
 
